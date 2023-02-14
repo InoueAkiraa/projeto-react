@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import './App.css';
+import '../css/App.css';
+import {baseUrl} from './config';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -7,11 +8,9 @@ import axios from 'axios';
 
 import {Modal, ModalBody, ModalFooter, ModalHeader} from 'reactstrap';
 
-import logoCadastro from './assets/etiquetas.png';
+import logoCadastro from '../../assets/etiquetas.png';
 
-function App() {
-
-  const baseUrl = "https://localhost:7290/api/supermercado/Categoria";
+function App() { 
 
   const [data, setData] = useState([]);
   const [updateData, setUpdateData] = useState(true);
