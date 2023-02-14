@@ -1,0 +1,21 @@
+INSERT INTO Categoria(Descricao) VALUES
+('Alimento Infantil'),
+('Suplementos'),
+('Bebidas'),
+('Biscoitos, Bolos e Bolachas'),
+('Carnes'),
+('Congelados'),
+('Conservas'),
+('Doces, Balas, Chocolates e Cia'),
+('Farinhas, Cereais e Complementos'),
+('Fast-Food, Aperitivos e Petiscos'),
+('Frios e Embutidos'),
+('Frutas'),
+('Legumes, Verduras e Grãos'),
+('Massas'),
+('Molhos, Caldos e Condimentos'),
+('Ovos, Leite, Queijo e Cia'),
+('Pães'),
+('Sopas & Cremes'),
+('Diversos')
+GO

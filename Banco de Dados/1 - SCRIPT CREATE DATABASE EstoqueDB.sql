@@ -1,0 +1,5 @@
+CREATE DATABASE EstoqueDB
+GO
+
+USE EstoqueDB
+GO
