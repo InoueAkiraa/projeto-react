@@ -25,14 +25,10 @@
     width: 30px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #DCDCE6;
+    border: none;
     background: transparent;
     margin-left: 16px;
     transition: border-color 0.5s;
-}
-
-.categoria-container header button:hover{
-    border-color: #201465;
 }
 
 .categoria-container h1{
@@ -58,13 +54,13 @@
 .categoria-container ul li button{
     position: absolute;
     right: 25px;
-    top: 25px;
+    top: 5px;
     border: 0;
     background: transparent;
 }
 
 .categoria-container ul li button + button{
-    top: 50px;
+    top: 35px;
 }
 
 .categoria-container ul li button:hover{
