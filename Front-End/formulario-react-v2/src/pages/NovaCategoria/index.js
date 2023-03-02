@@ -25,6 +25,8 @@ export function NovaCategoria(){
             const response = await api.get(`https://localhost:7290/api/supermercado/Categoria/${categoriaId}`);            
             setId(response.data.id); 
             setDescricao(response.data.descricao);
+            setDataInclusao(response.data.dataInclusao);
+            setAtivo(response.data.ativo);
         }catch(error){
             alert('Erro ao recuperar a categoria ' + error);
             navegar('/categoria');
@@ -32,7 +34,10 @@ export function NovaCategoria(){
     }    
 
     async function saveOrUpdate(event){
+        event.preventDefault();
+
         const data = {
+            categoriaId,
             descricao,
             dataInclusao,
             ativo
@@ -42,15 +47,15 @@ export function NovaCategoria(){
             if(categoriaId === '0'){
                 await api.post('https://localhost:7290/api/supermercado/Categoria', data); 
                 alert("Categoria criada com sucesso !!");
-            }
+            }   
             else{
-                data.id = id;
+                data.categoriaId = parseInt(categoriaId);
                 await api.put('https://localhost:7290/api/supermercado/Categoria', data);
-            }            
+            }  
+            navegar('../categoria');           
         }catch(error){
             alert('Erro ao recuperar a categoria ' + error);
-        }
-        navegar('/categoria');
+        }        
     }
 
     return(
