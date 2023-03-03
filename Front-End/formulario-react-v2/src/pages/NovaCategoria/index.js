@@ -10,19 +10,19 @@ export function NovaCategoria(){
     const [descricao, setDescricao] = useState('');
     const [dataInclusao, setDataInclusao] = useState(null);
     const [ativo, setAtivo] = useState(null);
-    const {categoriaId} = useParams();
+    const {codigoCategoria} = useParams();
     const navegar = useNavigate();
 
     useEffect(() => {
-        if (categoriaId === '0')
+        if (codigoCategoria === '0')
             return;
         else
             loadCategoria();
-    }, categoriaId)
+    }, codigoCategoria)
 
     async function loadCategoria(){
         try {
-            const response = await api.get(`https://localhost:7290/api/supermercado/Categoria/${categoriaId}`);            
+            const response = await api.get(`https://localhost:7290/api/supermercado/Categoria/${codigoCategoria}`);            
             setId(response.data.id); 
             setDescricao(response.data.descricao);
             setDataInclusao(response.data.dataInclusao);
@@ -36,20 +36,20 @@ export function NovaCategoria(){
     async function saveOrUpdate(event){
         event.preventDefault();
 
-        const data = {
-            categoriaId,
+        const data = {   
+            codigoCategoria,         
             descricao,
             dataInclusao,
             ativo
         }
 
         try{
-            if(categoriaId === '0'){
+            if(codigoCategoria === '0'){
                 await api.post('https://localhost:7290/api/supermercado/Categoria', data); 
                 alert("Categoria criada com sucesso !!");
             }   
             else{
-                data.categoriaId = parseInt(categoriaId);
+                data.codigoCategoria = parseInt(codigoCategoria);
                 await api.put('https://localhost:7290/api/supermercado/Categoria', data);
             }  
             navegar('../categoria');           
@@ -63,7 +63,7 @@ export function NovaCategoria(){
             <div className="content">                
                 <section className="form">    
                     <FiUserPlus size={105} color="#17202a"></FiUserPlus>      
-                    <h1>{categoriaId === '0'? 'Incluir Nova Categoria' : `Atualizar Categoria: ${categoriaId}`}</h1>
+                    <h1>{codigoCategoria === '0'? 'Incluir Nova Categoria' : `Atualizar Categoria: ${codigoCategoria}`}</h1>
                     <Link className="back-link" to="/categoria">
                         <FiCornerDownLeft size={25} color="#17202a"/>
                         Retornar
@@ -75,7 +75,7 @@ export function NovaCategoria(){
                         value={descricao}
                         onChange={e=> setDescricao(e.target.value)}
                     />                                        
-                    <button className="button" type="submit">{categoriaId === '0'? 'Incluir' : 'Atualizar'}</button>
+                    <button className="button" type="submit">{codigoCategoria === '0'? 'Incluir' : 'Atualizar'}</button>
                 </form>
             </div>
         </div>

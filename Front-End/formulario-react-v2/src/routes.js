@@ -9,7 +9,7 @@ export default function Rotas(){
             <Routes>
                 <Route path="/" element={<Menu/>}/>
                 <Route path="/categoria" element={<Categorias/>}/>
-                <Route path="/categoria/novo/:categoriaId" element={<NovaCategoria/>}/>
+                <Route path="/categoria/novo/:codigoCategoria" element={<NovaCategoria/>}/>
             </Routes>
         </BrowserRouter>
     )
