@@ -59,10 +59,12 @@ export function Categorias(){
         <div className="categoria-container">
             <header>
                 <img src={logoCadastro} alt="Cadastro"/>
-                <Link className="button" to="/categoria/novo/0">Nova Categoria</Link>
-                <button type="button">
-                    <FiXCircle size={40} color="#17202a"/>
-                </button>
+                <Link title="Criar novo registro" className="button" to="/categoria/novo/0">Nova Categoria</Link>
+                <Link to="/">
+                    <button title="Retornar para o Menu" type="button">                    
+                        <FiXCircle size={40} color="#17202a"/>
+                    </button>
+                </Link>                
             </header>
 
             <form className="categoria-form">
@@ -81,11 +83,11 @@ export function Categorias(){
                     <b>Data de Inclusão: </b>{categoria.dataInclusao}<br></br>
                     <b>Ativo: </b>{categoria.ativo ? 'Sim' : 'Não'}<br></br>
 
-                    <button onClick={() => editCategoria(categoria.codigoCategoria)} type="button">
+                    <button title="Editar" onClick={() => editCategoria(categoria.codigoCategoria)} type="button">
                         <FiEdit size="25" color="#17202a"/>
                     </button>
 
-                    <button onClick={() => deleteCategoria(categoria.codigoCategoria)}type="button">
+                    <button title="Excluir" onClick={() => deleteCategoria(categoria.codigoCategoria)}type="button">
                         <FiUserX size="25" color="#17202a"/>
                     </button>
                 </li>
@@ -100,11 +102,11 @@ export function Categorias(){
                     <b>Data de Inclusão: </b>{categoria.dataInclusao}<br></br>
                     <b>Ativo: </b>{categoria.ativo ? 'Sim' : 'Não'}<br></br>
 
-                    <button onClick={() => editCategoria(categoria.codigoCategoria)} type="button">
+                    <button title="Editar" onClick={() => editCategoria(categoria.codigoCategoria)} type="button">
                         <FiEdit size="25" color="#17202a"/>
                     </button>
 
-                    <button type="button">
+                    <button title="Excluir" onClick={() => deleteCategoria(categoria.codigoCategoria)} type="button">
                         <FiUserX size="25" color="#17202a"/>
                     </button>
                 </li>

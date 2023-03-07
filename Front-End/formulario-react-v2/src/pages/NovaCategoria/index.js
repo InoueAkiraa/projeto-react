@@ -12,6 +12,25 @@ export function NovaCategoria(){
     const [ativo, setAtivo] = useState(null);
     const {codigoCategoria} = useParams();
     const navegar = useNavigate();
+    
+    const stringToBoolean = (stringValue) => {
+        switch(stringValue?.toLowerCase()?.trim()){
+            case "true": 
+            case "yes": 
+            case "1": 
+              return true;
+    
+            case "false": 
+            case "no": 
+            case "0": 
+            case null: 
+            case undefined:
+              return false;
+    
+            default: 
+              return JSON.parse(stringValue);
+        }
+    }
 
     useEffect(() => {
         if (codigoCategoria === '0')
@@ -46,10 +65,11 @@ export function NovaCategoria(){
         try{
             if(codigoCategoria === '0'){
                 await api.post('https://localhost:7290/api/supermercado/Categoria', data); 
-                alert("Categoria criada com sucesso !!");
+                alert("Categoria [" +data.descricao +"] criada com sucesso !!");
             }   
             else{
                 data.codigoCategoria = parseInt(codigoCategoria);
+                data.ativo = stringToBoolean(ativo);
                 await api.put('https://localhost:7290/api/supermercado/Categoria', data);
             }  
             navegar('../categoria');           
@@ -69,16 +89,23 @@ export function NovaCategoria(){
                         Retornar
                     </Link>          
                 </section>
-                
+                               
                 <form onSubmit={saveOrUpdate}>                                    
                     <input placeholder="Descricão"
                         value={descricao}
                         onChange={e=> setDescricao(e.target.value)}
-                    />                                        
+                    />    
+
+                    {codigoCategoria !== '0' && (
+                        <input placeholder="Ativo"
+                        value={ativo}
+                        onChange={e=> setAtivo(e.target.value)}
+                        />
+                    )}
+                                                        
                     <button className="button" type="submit">{codigoCategoria === '0'? 'Incluir' : 'Atualizar'}</button>
                 </form>
             </div>
         </div>
-
     );
 }
