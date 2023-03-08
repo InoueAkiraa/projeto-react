@@ -1,0 +1,21 @@
+INSERT INTO Categoria (Descricao, DataInsert) VALUES
+('Alimento Infantil', '2022-09-09 14:03:21.140'),
+('Suplementos',	'2022-09-09 14:03:21.140'),
+('Bebidas',	'2022-09-09 14:03:21.140'),
+('Biscoitos, Bolos e Bolachas', '2022-09-09 14:03:21.140'),
+('Carnes', '2022-09-09 14:03:21.140'),
+('Congelados', '2022-09-09 14:03:21.140'),
+('Conservas', '2022-09-09 14:03:21.140'),
+('Doces, Balas, Chocolates e Cia', '2022-09-09 14:03:21.140'),
+('Farinhas, Cereais e Complementos', '2022-09-09 14:03:21.140'),
+('Fast-Food, Aperitivos e Petiscos', '2022-09-09 14:03:21.140'),
+('Frios e Embutidos', '2022-09-09 14:03:21.140'),
+('Frutas', '2022-09-09 14:03:21.140'),
+('Legumes, Verduras e Grãos', '2022-09-09 14:03:21.140'),
+('Massas', '2022-09-09 14:03:21.140'),
+('Molhos, Caldos e Condimentos', '2022-09-09 14:03:21.140'),
+('Ovos, Leite, Queijo e Cia', '2022-09-09 14:03:21.140'),
+('Pães', '2022-09-09 14:03:21.140'),
+('Sopas & Cremes', '2022-09-09 14:03:21.140'),
+('Diversos', '2022-09-09 14:03:21.140')
+GO

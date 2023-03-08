@@ -15,5 +15,15 @@ namespace Atacado.Domain.EF
         [Key]
         [Column(name: "IdCategoria")]
         public int CodigoCategoria { get; set; }
+
+        [Column(name: "Descricao")]
+        [Unicode(false)]
+        public string Descricao { get; set; } = null!;
+
+        [Column(name: "DataInsert", TypeName = "datetime")]
+        public DateTime? DataInclusao { get; set; }
+
+        [Column(name: "Ativo")]
+        public bool? Ativo { get; set; }
     }
 }

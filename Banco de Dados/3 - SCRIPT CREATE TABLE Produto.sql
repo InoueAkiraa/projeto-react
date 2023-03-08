@@ -1,0 +1,9 @@
+CREATE TABLE Produto (
+	IdProduto INT IDENTITY(1,1) NOT NULL,
+	IdCategoria INT NOT NULL,
+	Descricao VARCHAR(MAX) NOT NULL,
+	Ativo BIT NULL DEFAULT((1)),
+	DataInclusao DATETIME NULL DEFAULT(GETDATE()),
+	CONSTRAINT PK_Produto PRIMARY KEY (IdProduto),
+	CONSTRAINT FK_Produto_Categoria FOREIGN KEY (IdCategoria) REFERENCES Categoria(IdCategoria)
+)
