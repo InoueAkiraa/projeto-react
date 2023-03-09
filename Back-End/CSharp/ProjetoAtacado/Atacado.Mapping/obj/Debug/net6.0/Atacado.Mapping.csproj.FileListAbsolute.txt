@@ -1,0 +1,17 @@
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\bin\Debug\net6.0\Atacado.Mapping.deps.json
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\bin\Debug\net6.0\Atacado.Mapping.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\bin\Debug\net6.0\Atacado.Mapping.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\bin\Debug\net6.0\Atacado.Domain.EF.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\bin\Debug\net6.0\Atacado.Poco.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\bin\Debug\net6.0\Atacado.Domain.EF.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\bin\Debug\net6.0\Atacado.Poco.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\Atacado.Mapping.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\Atacado.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\Atacado.Mapping.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\Atacado.Mapping.AssemblyInfo.cs
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\Atacado.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\Atacado.Mapping.csproj.CopyComplete
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\Atacado.Mapping.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\refint\Atacado.Mapping.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\Atacado.Mapping.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Mapping\obj\Debug\net6.0\ref\Atacado.Mapping.dll

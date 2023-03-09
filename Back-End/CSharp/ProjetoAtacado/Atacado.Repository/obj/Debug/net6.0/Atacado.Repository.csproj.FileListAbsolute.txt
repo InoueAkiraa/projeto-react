@@ -1,0 +1,15 @@
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\bin\Debug\net6.0\Atacado.Repository.deps.json
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\bin\Debug\net6.0\Atacado.Repository.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\bin\Debug\net6.0\Atacado.Repository.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\bin\Debug\net6.0\Atacado.Domain.EF.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\bin\Debug\net6.0\Atacado.Domain.EF.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\Atacado.Repository.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\Atacado.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\Atacado.Repository.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\Atacado.Repository.AssemblyInfo.cs
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\Atacado.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\Atacado.Repository.csproj.CopyComplete
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\Atacado.Repository.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\refint\Atacado.Repository.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\Atacado.Repository.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Repository\obj\Debug\net6.0\ref\Atacado.Repository.dll

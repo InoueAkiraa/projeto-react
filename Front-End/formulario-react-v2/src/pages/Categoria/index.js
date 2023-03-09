@@ -28,7 +28,7 @@ export function Categorias(){
     }
 
     useEffect( () => {
-        api.get('https://localhost:7290/api/supermercado/Categoria').then(
+        api.get('https://localhost:7063/api/supermercado/Categoria').then(
             response => {setCategorias(response.data);
             }
         )
@@ -46,7 +46,7 @@ export function Categorias(){
         try{
             if(window.confirm('Deseja excluir a categoria com o seguinte id = ' + codigoCategoria + ' ? '))
             {
-                await api.delete(`https://localhost:7290/api/supermercado/Categoria/${codigoCategoria}`);
+                await api.delete(`https://localhost:7063/api/supermercado/Categoria/${codigoCategoria}`);
                 setCategorias(categorias.filter(categoria => categoria.codigoCategoria !== codigoCategoria));
             }
 

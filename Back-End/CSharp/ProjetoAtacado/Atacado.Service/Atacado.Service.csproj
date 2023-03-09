@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atacado.Domain.EF\Atacado.Domain.EF.csproj" />
+    <ProjectReference Include="..\Atacado.Mapping\Atacado.Mapping.csproj" />
+    <ProjectReference Include="..\Atacado.Poco\Atacado.Poco.csproj" />
+    <ProjectReference Include="..\Atacado.Repository\Atacado.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

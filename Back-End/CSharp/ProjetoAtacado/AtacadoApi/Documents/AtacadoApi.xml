@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AtacadoApi</name>
+    </assembly>
+    <members>
+        <member name="T:AvaliarApi.Controllers.CategoriaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AvaliarApi.Controllers.CategoriaController.servico">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AvaliarApi.Controllers.CategoriaController.#ctor(Atacado.Domain.EF.AtacadoContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+        <member name="M:AvaliarApi.Controllers.CategoriaController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros existentes na tabela Categoria utilizando parâmetros de paginação.
+            </summary>
+            <param name="take">Quantos registros você deseja obter.</param>
+            <param name="skip">Quantos registros você deseja pular.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.CategoriaController.GetById(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com a chave primária especificada.
+            </summary>
+            <param name="chave">Código da chave primária.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.CategoriaController.Post(Atacado.Poco.CategoriaPoco)">
+            <summary>
+            Realiza a criação de um novo registro de Categoria.
+            </summary>
+            <param name="poco">Body do registro a ser cadastrado.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.CategoriaController.Put(Atacado.Poco.CategoriaPoco)">
+            <summary>
+            Altera um dado existente dentro da tabela Categoria.
+            </summary>
+            <param name="poco"> Body do dado que será alterado (pela chave primária informada). </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.CategoriaController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente na tabela Categoria, utilizando a chave primária.
+            </summary>
+            <param name="chave"> Chave primária para localização.</param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.CategoriaController.GetAllEnvelope(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros de modo envelopado para o arquivo JSON.
+            </summary>
+            <param name="limite">Quantos registros você deseja obter.</param>
+            <param name="salto">Quantos registros você deseja pular.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.CategoriaController.GetByIdEnvelope(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com o código da chave primária informada.
+            </summary>
+            <param name="chave">Código da chave primária do registro</param>
+            <returns></returns>
+        </member>
+        <member name="T:AvaliarApi.Controllers.ProdutoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AvaliarApi.Controllers.ProdutoController.servico">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AvaliarApi.Controllers.ProdutoController.#ctor(Atacado.Domain.EF.AtacadoContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+        <member name="M:AvaliarApi.Controllers.ProdutoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros existentes na tabela Produto utilizando parâmetros de paginação.
+            </summary>
+            <param name="take">Quantos registros você deseja obter.</param>
+            <param name="skip">Quantos registros você deseja pular.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.ProdutoController.GetById(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com a chave primária especificada.
+            </summary>
+            <param name="chave">Código da chave primária.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.ProdutoController.Post(Atacado.Poco.ProdutoPoco)">
+            <summary>
+            Realiza a criação de um novo registro de Produto.
+            </summary>
+            <param name="poco">Body do registro a ser cadastrado.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.ProdutoController.Put(Atacado.Poco.ProdutoPoco)">
+            <summary>
+            Altera um dado existente dentro da tabela Produto.
+            </summary>
+            <param name="poco"> Body do dado que será alterado (pela chave primária informada). </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.ProdutoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente na tabela Produto, utilizando a chave primária.
+            </summary>
+            <param name="chave"> Chave primária para localização.</param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.ProdutoController.GetAllEnvelope(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros de modo envelopado para o arquivo JSON.
+            </summary>
+            <param name="limite">Quantos registros você deseja obter.</param>
+            <param name="salto">Quantos registros você deseja pular.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.ProdutoController.GetPorCategoriaEnvelope(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros de modo envelopado para o arquivo JSON filtrados pelo código de Categoria.
+            </summary>
+            <param name="catcod"></param>
+            <param name="limite"></param>
+            <param name="salto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.ProdutoController.GetByIdEnvelope(System.Int32)">
+            <summary>
+            Retorna o registro de acordo com o código da chave primária informada.
+            </summary>
+            <param name="chave">Código da chave primária do registro</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ENgINJt/fROd3cmIkb0OqyQ2spmxZCbz9OyjZjJXI0CZ56LYGaKPhakjdvA/4pUhYGAvFKhDjoMEIVFr3aAmVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto-react\\Back-End\\CSharp\\ProjetoAtacado\\Atacado.Envelope\\Atacado.Envelope.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aluno\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

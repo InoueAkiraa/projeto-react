@@ -1,0 +1,15 @@
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\bin\Debug\net6.0\Atacado.Envelope.deps.json
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\bin\Debug\net6.0\Atacado.Envelope.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\bin\Debug\net6.0\Atacado.Envelope.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\bin\Debug\net6.0\Atacado.Poco.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\bin\Debug\net6.0\Atacado.Poco.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\Atacado.Envelope.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\Atacado.Envelope.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\Atacado.Envelope.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\Atacado.Envelope.AssemblyInfo.cs
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\Atacado.Envelope.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\Atacado.Envelope.csproj.CopyComplete
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\Atacado.Envelope.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\refint\Atacado.Envelope.dll
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\Atacado.Envelope.pdb
+C:\Users\Aluno\Documents\GitHub\projeto-react\Back-End\CSharp\ProjetoAtacado\Atacado.Envelope\obj\Debug\net6.0\ref\Atacado.Envelope.dll

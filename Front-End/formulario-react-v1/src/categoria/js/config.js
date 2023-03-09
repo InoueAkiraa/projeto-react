@@ -1,1 +1,1 @@
-export const baseUrl = "https://localhost:7290/api/supermercado/Categoria";
+export const baseUrl = "https://localhost:7063/api/supermercado/Categoria";

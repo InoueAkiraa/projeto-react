@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>Documents\AtacadoApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Core" Version="1.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atacado.Domain.EF\Atacado.Domain.EF.csproj" />
+    <ProjectReference Include="..\Atacado.Envelope\Atacado.Envelope.csproj" />
+    <ProjectReference Include="..\Atacado.Mapping\Atacado.Mapping.csproj" />
+    <ProjectReference Include="..\Atacado.Poco\Atacado.Poco.csproj" />
+    <ProjectReference Include="..\Atacado.Repository\Atacado.Repository.csproj" />
+    <ProjectReference Include="..\Atacado.Service\Atacado.Service.csproj" />
+  </ItemGroup>
+
+</Project>

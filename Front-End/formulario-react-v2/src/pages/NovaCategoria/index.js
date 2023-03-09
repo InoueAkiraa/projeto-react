@@ -41,7 +41,7 @@ export function NovaCategoria(){
 
     async function loadCategoria(){
         try {
-            const response = await api.get(`https://localhost:7290/api/supermercado/Categoria/${codigoCategoria}`);            
+            const response = await api.get(`https://localhost:7063/api/supermercado/Categoria/${codigoCategoria}`);            
             setId(response.data.id); 
             setDescricao(response.data.descricao);
             setDataInclusao(response.data.dataInclusao);
@@ -64,13 +64,14 @@ export function NovaCategoria(){
 
         try{
             if(codigoCategoria === '0'){
-                await api.post('https://localhost:7290/api/supermercado/Categoria', data); 
+                await api.post('https://localhost:7063/api/supermercado/Categoria', data); 
                 alert("Categoria [" +data.descricao +"] criada com sucesso !!");
             }   
             else{
                 data.codigoCategoria = parseInt(codigoCategoria);
                 data.ativo = stringToBoolean(ativo);
-                await api.put('https://localhost:7290/api/supermercado/Categoria', data);
+                await api.put('https://localhost:7063/api/supermercado/Categoria', data);
+                alert("Categoria [" +data.descricao +"] alterada com sucesso !!");
             }  
             navegar('../categoria');           
         }catch(error){
