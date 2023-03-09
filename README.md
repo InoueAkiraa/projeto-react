@@ -14,7 +14,7 @@
 ![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 <p>Foi desenvolvido o CRUD em C#, onde utilizei tanto o Visual Studio 2022, quanto o Visual Code 2022. Vi a diferença das 
 duas IDE, quais particularidades cada uma possui e o que fazer para corrigí-las. No Back-End o projeto final foi desenvolvido utilizando 
-o modelo arquitetural em camadas, fiz uso dos designs patterns Singleton, Repository e Adapter durante a criação do projeto. Também utilizamos
+o modelo arquitetural em camadas, fiz uso dos designs patterns Singleton, Repository e Adapter durante a criação do projeto. Também utilizei
 Frameworks como Entity Framework, AutoMapper, LINQKIT e o Newtonsoft Json.</p>
 <br>  
   
