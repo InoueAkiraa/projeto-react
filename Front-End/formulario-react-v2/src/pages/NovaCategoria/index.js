@@ -14,7 +14,7 @@ export function NovaCategoria(){
     const navegar = useNavigate();
     
     const stringToBoolean = (stringValue) => {
-        switch(stringValue?.toLowerCase()?.trim()){
+        switch(stringValue?.toString()?.toLowerCase()?.trim()){
             case "true": 
             case "yes": 
             case "1": 
